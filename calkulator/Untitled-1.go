@@ -37,7 +37,7 @@ default: fmt.Println("Введите корректную операцию")
 	case "-": sum=sum-b 
 	case "/": sum=sum/b 
 	case "*": sum=sum*b 
-   default: fmt.Println("Введите корректную ")
+   default: fmt.Println("Введите корректную операцию")
 			fmt.Scanf("%s \n", &Oper) 
 	}
  case "Нет": fmt.Println("Спасибо")
