@@ -42,6 +42,6 @@ default: fmt.Println("Введите корректную операцию")
 	}
  case "Нет": fmt.Println("Спасибо")
  }
-	fmt.Println("Итог==",sum)
+	fmt.Println("Итог=",sum)
 }
 }
